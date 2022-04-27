@@ -17,6 +17,10 @@ main{
 }
 nav {
     height: 3rem;
+    color: white;
+}
+.navImage{
+    padding: .5rem;
 }
 .mainNeb {
     height: 30%;
