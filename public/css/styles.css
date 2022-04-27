@@ -12,6 +12,7 @@ main{
     height: 100%;
     width: 100%;
     padding: 10rem 10rem;
+    margin-top: 10rem;
     background-color: rgba(58, 57, 69, 0.467);
 }
 nav {
