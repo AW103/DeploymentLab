@@ -4,9 +4,10 @@ const path = require('path');
 
 const app = express();
 
-app.get('/js', () => {
-    res.sendFile(path.join(__dirname, '../public/css/styles.css'))
-})
+// app.get('/js', () => {
+//     res.sendFile(path.join(__dirname, '../public/css/styles.css'))
+// })
+app.use(express.static("public"))
 
 app.get('/', (req,res) => {
     res.sendFile(path.join(__dirname, '../index.html'))
