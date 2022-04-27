@@ -2,7 +2,11 @@ body{
     height: 100%;
     width: 100%;
     background-image: url("https://astronomy.com/~/media/D8E48A1E28E242468F74C1B06CFF478F.jpg");
+    background-attachment: fixed;
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-size:cover;
 }
 main{
     height: 100%;
