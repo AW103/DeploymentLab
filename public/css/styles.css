@@ -22,3 +22,7 @@ nav {
     height: 30%;
     width: 30%
 }
+footer {
+    margin-top: auto;
+    background-color: rgb(43, 43, 43);
+}
