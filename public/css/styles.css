@@ -1,8 +1,16 @@
+body{
+    height: 100%;
+    width: 100%;
+}
 main{
     text-align: center;
     height: 100%;
     width: 100%;
-    padding: 0 5rem;
+    padding: 0 10rem;
+    background-image: url("https://astronomy.com/~/media/D8E48A1E28E242468F74C1B06CFF478F.jpg");
+}
+nav {
+    height: 3rem;
 }
 .mainNeb {
     height: 30%;
